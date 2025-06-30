@@ -1,0 +1,23 @@
+[project]
+name = "mcp-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.11.0",
+    "git-filter-repo>=2.47.0",
+    "httpx>=0.28.1",
+    "langchain-community>=0.3.24",
+    "langchain-mcp-adapters>=0.1.7",
+    "langchain-openai>=0.3.21",
+    "langgraph>=0.4.8",
+    "lxml>=5.4.0",
+    "mcp[cli]>=1.9.3",
+    "playwright>=1.52.0",
+    "pypdf>=5.6.0",
+    "pytest>=8.4.1",
+    "setuptools>=80.9.0",
+]

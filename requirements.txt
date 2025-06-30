@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+pypdf
+python-dotenv
+faiss-cpu
+playwright > /dev/null
+lxml
+playwright
+pytest
+langchain-mcp-adapters
+
+-e .
